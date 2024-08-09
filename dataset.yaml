@@ -1,0 +1,4 @@
+train: ./images/train/
+val: ./images/val/
+nc: 5
+names: ["count_down", "visit_btn", "download_btn", "close_btn", "skip_btn"]

@@ -1,0 +1,2 @@
+IMAGE_SIZE=(800, 416)
+MODEL_TYPE="detect"
