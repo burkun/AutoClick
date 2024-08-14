@@ -3,10 +3,10 @@
 case "$1" in
     train)
         python3 all_in_one.py $1 \
-            --model_path models/yolov8s.pt \
+            --model_path yolov8s.pt \
             --device cuda:0 \
             --dataset_conf dataset.yaml \
-            --epochs 1 \
+            --epochs 50 \
             --batch 30 \
             --lr0 0.001 \
             --eval_model \
